@@ -186,7 +186,7 @@ public abstract class AnimatableMonsterEntity extends MonsterEntity implements I
 		double dz = getZ() - zo;
 		double dxSqr = dx * dx;
 		double dzSqr = dz * dz;
-		
+
 		return dxSqr + dzSqr < getMovementThreshold();
 	}
 	
